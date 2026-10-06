@@ -7,10 +7,12 @@ The application includes a skill-based learning path, multiple exercise types, l
 
 ## Live Demo
 
-- **Frontend:** https://duolingo-clone-seven-mu.vercel.app
-- **Backend API:** https://duolingo-clone-api-ubgr.onrender.com
-- **API Documentation:** https://duolingo-clone-api-ubgr.onrender.com/docs
-- **GitHub:** https://github.com/urvashi1412/duolingo-clone
+| Resource          | Link                                                                                                   |
+| ----------------- | ------------------------------------------------------------------------------------------------------ |
+| Live Application  | [https://duolingo-clone-seven-mu.vercel.app](https://duolingo-clone-seven-mu.vercel.app)               |
+| Backend API       | [https://duolingo-clone-api-ubgr.onrender.com](https://duolingo-clone-api-ubgr.onrender.com)           |
+| API Documentation | [https://duolingo-clone-api-ubgr.onrender.com/docs](https://duolingo-clone-api-ubgr.onrender.com/docs) |
+| GitHub Repository | [https://github.com/urvashi1412/duolingo-clone](https://github.com/urvashi1412/duolingo-clone)         |
 
 ## Tech Stack
 
@@ -221,15 +223,8 @@ CORS_ORIGINS=https://duolingo-clone-seven-mu.vercel.app
 
 [https://duolingo-clone-api-ubgr.onrender.com/docs](https://duolingo-clone-api-ubgr.onrender.com/docs)
 
-SQLite is used for the assignment. PostgreSQL would be a suitable production database alternative while retaining the SQLAlchemy-based data layer.
+SQLite is used for the assignment. 
 
-## Project Links
 
-| Resource          | Link                                                                                                   |
-| ----------------- | ------------------------------------------------------------------------------------------------------ |
-| Live Application  | [https://duolingo-clone-seven-mu.vercel.app](https://duolingo-clone-seven-mu.vercel.app)               |
-| Backend API       | [https://duolingo-clone-api-ubgr.onrender.com](https://duolingo-clone-api-ubgr.onrender.com)           |
-| API Documentation | [https://duolingo-clone-api-ubgr.onrender.com/docs](https://duolingo-clone-api-ubgr.onrender.com/docs) |
-| GitHub Repository | [https://github.com/urvashi1412/duolingo-clone](https://github.com/urvashi1412/duolingo-clone)         |
 
 
