@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --duo-green: #58cc02;
+  --duo-blue: #1cb0f6;
+}
+
+body {
+  @apply font-duo text-gray-800 antialiased;
+}
+
+@layer components {
+  .duo-btn {
+    @apply rounded-2xl border-2 border-b-4 px-6 py-3 text-sm font-extrabold uppercase tracking-wide transition active:translate-y-[2px] active:border-b-2;
+  }
+  .duo-btn-green {
+    @apply duo-btn border-duo-green-dark bg-duo-green text-white;
+  }
+  .duo-btn-blue {
+    @apply duo-btn border-duo-blue-dark bg-duo-blue text-white;
+  }
+  .duo-btn-outline {
+    @apply duo-btn border-duo-gray-dark bg-white text-duo-feather;
+  }
+  .duo-card {
+    @apply rounded-2xl border-2 border-duo-gray bg-white;
+  }
+}
+
+@keyframes bounce-in {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-bounce-in {
+  animation: bounce-in 0.35s ease-out;
+}
+
+@keyframes progress-pop {
+  0% {
+    width: 0%;
+  }
+}
+
+.path-scroll {
+  scrollbar-width: thin;
+}
